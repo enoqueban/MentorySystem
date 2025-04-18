@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "OTAPlz0JLyo=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\e.de.andrade.neto\\KikeAI\\src\\MentoringSystem.Shared\\MentoringSystem.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\e.de.andrade.neto\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\e.de.andrade.neto\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\e.de.andrade.neto\\.nuget\\packages\\rabbitmq.client\\6.5.0\\rabbitmq.client.6.5.0.nupkg.sha512",
+    "C:\\Users\\e.de.andrade.neto\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\e.de.andrade.neto\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

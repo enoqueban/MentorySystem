@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Chat - SignalR Test</title>
+  <script src="https://cdn.jsdelivr.net/npm/@microsoft/signalr@7.0.10/dist/browser/signalr.min.js"></script>
+</head>
+<body>
+  <h2>Mentoring Chat (SignalR)</h2>
+
+  <label>Nombre de usuario:</label>
+  <input id="userInput" /><br />
+
+  <label>Mensaje:</label>
+  <input id="messageInput" />
+  <button onclick="sendMessage()">Enviar</button>
+
+  <ul id="messagesList"></ul>
+
+  <script>
+    const connection = new signalR.HubConnectionBuilder()
+      .withUrl("http://localhost:5000/hub/chat")
+      .configureLogging(signalR.LogLevel.Information)
+      .build();
+
+    connection.on("ReceiveMessage", (user, message) => {
+      const li = document.createElement("li");
+      li.textContent = `${user}: ${message}`;
+      document.getElementById("messagesList").appendChild(li);
+    });
+
+    async function start() {
+      try {
+        await connection.start();
+        console.log("Conectado a SignalR");
+      } catch (err) {
+        console.error(err);
+        setTimeout(start, 5000);
+      }
+    }
+
+    function sendMessage() {
+      const user = document.getElementById("userInput").value;
+      const message = document.getElementById("messageInput").value;
+      connection.invoke("SendMessage", user, message).catch(err => console.error(err));
+    }
+
+    start();
+  </script>
+</body>
+</html>

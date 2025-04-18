@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "AnalyticsService.Protos";
+
+service Analytics {
+  rpc GetInsights (AnalyticsRequest) returns (AnalyticsResponse);
+}
+
+message AnalyticsRequest  { string query = 1; }
+message AnalyticsResponse { string insights = 1; }

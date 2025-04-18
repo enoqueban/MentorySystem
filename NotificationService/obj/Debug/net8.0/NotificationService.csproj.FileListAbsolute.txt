@@ -1,0 +1,6 @@
+C:\Users\e.de.andrade.neto\KikeAI\src\NotificationService\obj\Debug\net8.0\NotificationService.csproj.AssemblyReference.cache
+C:\Users\e.de.andrade.neto\KikeAI\src\NotificationService\obj\Debug\net8.0\NotificationService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\e.de.andrade.neto\KikeAI\src\NotificationService\obj\Debug\net8.0\NotificationService.AssemblyInfoInputs.cache
+C:\Users\e.de.andrade.neto\KikeAI\src\NotificationService\obj\Debug\net8.0\NotificationService.AssemblyInfo.cs
+C:\Users\e.de.andrade.neto\KikeAI\src\NotificationService\obj\Debug\net8.0\NotificationService.csproj.CoreCompileInputs.cache
+C:\Users\e.de.andrade.neto\KikeAI\src\NotificationService\obj\Debug\net8.0\NotificationService.MvcApplicationPartsAssemblyInfo.cache

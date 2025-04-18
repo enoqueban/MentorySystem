@@ -1,0 +1,32 @@
+# Directorios
+bin/
+obj/
+.vs/
+.vscode/
+node_modules/
+TestResults/
+.idea/
+
+# Archivos
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+**/[Pp]ackages/*
+*.pubxml
+*.pfx
+*.snk
+*.dll
+*.exe
+*.pdb
+*.[Cc]ache
+*.log
+
+# Archivos locales de configuración
+appsettings.Development.json
+appsettings.local.json
+local.settings.json
+
+# Otros
+.DS_Store
+Thumbs.db
