@@ -1,11 +1,12 @@
-C:\Users\e.de.andrade.neto\KikeAI\src\MentoringSystem.Shared\obj\Debug\net8.0\MentoringSystem.Shared.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\e.de.andrade.neto\KikeAI\src\MentoringSystem.Shared\obj\Debug\net8.0\MentoringSystem.Shared.AssemblyInfoInputs.cache
-C:\Users\e.de.andrade.neto\KikeAI\src\MentoringSystem.Shared\obj\Debug\net8.0\MentoringSystem.Shared.AssemblyInfo.cs
-C:\Users\e.de.andrade.neto\KikeAI\src\MentoringSystem.Shared\obj\Debug\net8.0\MentoringSystem.Shared.csproj.CoreCompileInputs.cache
 C:\Users\e.de.andrade.neto\KikeAI\src\MentoringSystem.Shared\bin\Debug\net8.0\MentoringSystem.Shared.deps.json
 C:\Users\e.de.andrade.neto\KikeAI\src\MentoringSystem.Shared\bin\Debug\net8.0\MentoringSystem.Shared.dll
 C:\Users\e.de.andrade.neto\KikeAI\src\MentoringSystem.Shared\bin\Debug\net8.0\MentoringSystem.Shared.pdb
 C:\Users\e.de.andrade.neto\KikeAI\src\MentoringSystem.Shared\obj\Debug\net8.0\MentoringSystem.Shared.csproj.AssemblyReference.cache
+C:\Users\e.de.andrade.neto\KikeAI\src\MentoringSystem.Shared\obj\Debug\net8.0\MentoringSystem.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\e.de.andrade.neto\KikeAI\src\MentoringSystem.Shared\obj\Debug\net8.0\MentoringSystem.Shared.AssemblyInfoInputs.cache
+C:\Users\e.de.andrade.neto\KikeAI\src\MentoringSystem.Shared\obj\Debug\net8.0\MentoringSystem.Shared.AssemblyInfo.cs
+C:\Users\e.de.andrade.neto\KikeAI\src\MentoringSystem.Shared\obj\Debug\net8.0\MentoringSystem.Shared.csproj.CoreCompileInputs.cache
+C:\Users\e.de.andrade.neto\KikeAI\src\MentoringSystem.Shared\obj\Debug\net8.0\MentoringSystem.Shared.sourcelink.json
 C:\Users\e.de.andrade.neto\KikeAI\src\MentoringSystem.Shared\obj\Debug\net8.0\MentoringSystem.Shared.dll
 C:\Users\e.de.andrade.neto\KikeAI\src\MentoringSystem.Shared\obj\Debug\net8.0\refint\MentoringSystem.Shared.dll
 C:\Users\e.de.andrade.neto\KikeAI\src\MentoringSystem.Shared\obj\Debug\net8.0\MentoringSystem.Shared.pdb

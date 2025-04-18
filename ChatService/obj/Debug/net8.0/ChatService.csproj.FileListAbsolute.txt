@@ -33,6 +33,7 @@ C:\Users\e.de.andrade.neto\KikeAI\src\ChatService\obj\Debug\net8.0\ChatService.A
 C:\Users\e.de.andrade.neto\KikeAI\src\ChatService\obj\Debug\net8.0\ChatService.csproj.CoreCompileInputs.cache
 C:\Users\e.de.andrade.neto\KikeAI\src\ChatService\obj\Debug\net8.0\ChatService.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\e.de.andrade.neto\KikeAI\src\ChatService\obj\Debug\net8.0\ChatService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\e.de.andrade.neto\KikeAI\src\ChatService\obj\Debug\net8.0\ChatService.sourcelink.json
 C:\Users\e.de.andrade.neto\KikeAI\src\ChatService\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\e.de.andrade.neto\KikeAI\src\ChatService\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\e.de.andrade.neto\KikeAI\src\ChatService\obj\Debug\net8.0\staticwebassets\msbuild.ChatService.Microsoft.AspNetCore.StaticWebAssets.props

@@ -19,7 +19,7 @@ namespace NotificationService.Services
             _rabbitMQService.Subscribe<string>("notifications", ProcessNotification);
         }
 
-        private void ProcessNotification(string message)
+        internal void ProcessNotification(string message)
         {
             _redisCache.StoreNotification(message);
         }

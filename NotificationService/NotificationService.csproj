@@ -4,6 +4,8 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>NotificationService</RootNamespace> <!-- ESTA LÍNEA ES LA CLAVE -->
+    <enabledefaultcompileitems>false</enabledefaultcompileitems>
   </PropertyGroup>
 
   <ItemGroup>
@@ -15,5 +17,15 @@
   <ItemGroup>
     <ProjectReference Include="..\MentoringSystem.Shared\MentoringSystem.Shared.csproj" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="**\*.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
+      <_Parameter1>NotificationService.Tests</_Parameter1>
+    </AssemblyAttribute>
+</ItemGroup>
 
 </Project>
