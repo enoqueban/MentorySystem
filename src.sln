@@ -6,6 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityService", "Identity
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MentoringSystem.Shared", "MentoringSystem.Shared\MentoringSystem.Shared.csproj", "{6065309D-F935-4258-8F96-23A4408D1C62}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatService.Tests", "ChatService.Tests\ChatService.Tests.csproj", "{340A8B82-0680-46A2-9064-848B733B7580}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService.Tests", "NotificationService.Tests\NotificationService.Tests.csproj", "{49E48F11-BC47-4A64-A612-7D7A3FD87CDD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +24,14 @@ Global
 		{6065309D-F935-4258-8F96-23A4408D1C62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6065309D-F935-4258-8F96-23A4408D1C62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6065309D-F935-4258-8F96-23A4408D1C62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{340A8B82-0680-46A2-9064-848B733B7580}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{340A8B82-0680-46A2-9064-848B733B7580}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{340A8B82-0680-46A2-9064-848B733B7580}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{340A8B82-0680-46A2-9064-848B733B7580}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49E48F11-BC47-4A64-A612-7D7A3FD87CDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49E48F11-BC47-4A64-A612-7D7A3FD87CDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49E48F11-BC47-4A64-A612-7D7A3FD87CDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49E48F11-BC47-4A64-A612-7D7A3FD87CDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -6,7 +6,7 @@ using RabbitMQ.Client.Events;
 
 namespace MentoringSystem.Shared.Messaging
 {
-    public class RabbitMQService : IDisposable
+    public class RabbitMQService : IRabbitMQService, IDisposable
     {
         private readonly IConnection _connection;
         private readonly IModel _channel;

@@ -14,7 +14,7 @@ var app = builder.Build();
 app.UseHttpsRedirection();
 
 var processor = app.Services.GetRequiredService<NotificationProcessor>();
-processor.StartProcessing();
+//processor.StartProcessing();
 
 app.MapGet("/", () => "Notification Service is running.");
 

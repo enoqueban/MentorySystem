@@ -1,21 +1,19 @@
 using StackExchange.Redis;
-
 namespace NotificationService.Data
 {
-    public class RedisCache
+    public class RedisCache : IRedisCache
     {
-        private readonly ConnectionMultiplexer _redis;
+        private readonly IDatabase _database;
 
-        public RedisCache(IConfiguration configuration)
+        public RedisCache()
         {
-            var redisConnectionString = configuration.GetConnectionString("Redis");
-            _redis = ConnectionMultiplexer.Connect(redisConnectionString);
+            var connection = ConnectionMultiplexer.Connect("localhost");
+            _database = connection.GetDatabase();
         }
 
-        public void StoreNotification(string notification)
+        public void StoreNotification(string message)
         {
-            var db = _redis.GetDatabase();
-            db.StringSet($"notification:{Guid.NewGuid()}", notification, TimeSpan.FromMinutes(5));
+            _database.ListLeftPush("notifications", message);
         }
     }
 }

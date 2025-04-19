@@ -3,7 +3,7 @@ using Moq;
 using Xunit;
 
 using NotificationProcessor = NotificationService.Services.NotificationProcessor;
-using RedisCache = NotificationService.Data.RedisCache;
+using NotificationService.Data;
 using MentoringSystem.Shared.Messaging;
 
 namespace NotificationService.Tests
@@ -13,8 +13,8 @@ namespace NotificationService.Tests
         [Fact]
         public void PublishNotification_ShouldCallRabbitMQServicePublish()
         {
-            var mockRabbit = new Mock<RabbitMQService>(null!);
-            var mockRedis = new Mock<RedisCache>(null!);
+            var mockRabbit = new Mock<IRabbitMQService>();
+            var mockRedis = new Mock<IRedisCache>();
             var processor = new NotificationProcessor(mockRabbit.Object, mockRedis.Object);
 
             var message = "Hello World";
@@ -27,8 +27,8 @@ namespace NotificationService.Tests
         [Fact]
         public void ProcessNotification_ShouldCallRedisStore()
         {
-            var mockRabbit = new Mock<RabbitMQService>(null!);
-            var mockRedis = new Mock<RedisCache>(null!);
+            var mockRabbit = new Mock<IRabbitMQService>();
+            var mockRedis = new Mock<IRedisCache>();
             var processor = new NotificationProcessor(mockRabbit.Object, mockRedis.Object);
 
             var message = "Test Message";

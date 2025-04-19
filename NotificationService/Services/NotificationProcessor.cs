@@ -5,28 +5,23 @@ namespace NotificationService.Services
 {
     public class NotificationProcessor
     {
-        private readonly RabbitMQService _rabbitMQService;
-        private readonly RedisCache _redisCache;
+        private readonly IRabbitMQService _rabbitMQService;
+        private readonly IRedisCache _redisCache;
 
-        public NotificationProcessor(RabbitMQService rabbitMQService, RedisCache redisCache)
+        public NotificationProcessor(IRabbitMQService rabbitMQService, IRedisCache redisCache)
         {
             _rabbitMQService = rabbitMQService;
             _redisCache = redisCache;
         }
 
-        public void StartProcessing()
-        {
-            _rabbitMQService.Subscribe<string>("notifications", ProcessNotification);
-        }
-
-        internal void ProcessNotification(string message)
-        {
-            _redisCache.StoreNotification(message);
-        }
-
         public void PublishNotification(string message)
         {
             _rabbitMQService.Publish("notifications", message);
+        }
+
+        private void ProcessNotification(string message)
+        {
+            _redisCache.StoreNotification(message);
         }
     }
 }

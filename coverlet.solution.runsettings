@@ -1,0 +1,23 @@
+﻿<RunSettings>
+  <DataCollectionRunSettings>
+    <DataCollectors>
+      <DataCollector friendlyName="XPlat code coverage">
+        <Configuration>
+          <Format>cobertura</Format>
+          <Include>[NotificationService*]*</Include>
+          <Include>[ChatService*]*</Include>
+          <Include>[FeedbackService*]*</Include>
+          <Include>[PriorityService*]*</Include>
+          <Include>[IdentityService*]*</Include>
+          <Include>[AuthenticationBFF*]*</Include>
+          <Include>[MentoringBFF*]*</Include>
+          <Include>[ChatBFF*]*</Include>
+          <Include>[AnalysisBFF*]*</Include>
+          <Include>[NotificationsBFF*]*</Include>
+          <Include>[AdminBFF*]*</Include>
+          <IncludePrivate>true</IncludePrivate>
+        </Configuration>
+      </DataCollector>
+    </DataCollectors>
+  </DataCollectionRunSettings>
+</RunSettings>

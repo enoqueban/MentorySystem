@@ -29,5 +29,9 @@
   <ItemGroup>
     <ProjectReference Include="..\MentoringSystem.Shared\MentoringSystem.Shared.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NotificationService\NotificationService.csproj" />
+    <Compile Include="NotificationProcessorTests.cs" />
+  </ItemGroup>
 
 </Project>
