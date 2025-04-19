@@ -45,3 +45,4 @@ C:\Users\e.de.andrade.neto\KikeAI\src\PriorityService\obj\Debug\net8.0\refint\Pr
 C:\Users\e.de.andrade.neto\KikeAI\src\PriorityService\obj\Debug\net8.0\PriorityService.pdb
 C:\Users\e.de.andrade.neto\KikeAI\src\PriorityService\obj\Debug\net8.0\PriorityService.genruntimeconfig.cache
 C:\Users\e.de.andrade.neto\KikeAI\src\PriorityService\obj\Debug\net8.0\ref\PriorityService.dll
+C:\Users\e.de.andrade.neto\KikeAI\src\PriorityService\obj\Debug\net8.0\PriorityService.sourcelink.json

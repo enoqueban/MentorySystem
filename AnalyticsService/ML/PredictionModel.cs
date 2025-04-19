@@ -2,6 +2,6 @@ namespace AnalyticsService.ML;
 
 public class PredictionModel
 {
-    public string GetPrediction(string input)
+    public virtual string GetPrediction(string input)
         => $"Predicted insight for '{input}'";
 }

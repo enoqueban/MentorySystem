@@ -129,3 +129,4 @@ C:\Users\e.de.andrade.neto\KikeAI\src\EvaluationService\obj\Debug\net8.0\refint\
 C:\Users\e.de.andrade.neto\KikeAI\src\EvaluationService\obj\Debug\net8.0\EvaluationService.pdb
 C:\Users\e.de.andrade.neto\KikeAI\src\EvaluationService\obj\Debug\net8.0\EvaluationService.genruntimeconfig.cache
 C:\Users\e.de.andrade.neto\KikeAI\src\EvaluationService\obj\Debug\net8.0\ref\EvaluationService.dll
+C:\Users\e.de.andrade.neto\KikeAI\src\EvaluationService\obj\Debug\net8.0\EvaluationService.sourcelink.json

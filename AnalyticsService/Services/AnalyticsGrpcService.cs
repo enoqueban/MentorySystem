@@ -1,19 +1,24 @@
-using Grpc.Core;
-using AnalyticsService.Protos;
 using AnalyticsService.ML;
+using AnalyticsService.Protos;
+using Grpc.Core;
 
-namespace AnalyticsService.Services;
-
-public class AnalyticsGrpcService : Analytics.AnalyticsBase
+namespace AnalyticsService.Services
 {
-    private readonly PredictionModel _pred;
-
-    public AnalyticsGrpcService(PredictionModel pred) => _pred = pred;
-
-    public override Task<AnalyticsResponse> GetInsights(
-        AnalyticsRequest request, ServerCallContext context)
+    public class AnalyticsGrpcService : Analytics.AnalyticsBase
     {
-        var text = _pred.GetPrediction(request.Query);
-        return Task.FromResult(new AnalyticsResponse { Insights = text });
+        private readonly PredictionModel _predictionModel;
+        private readonly RecommendationModel _recommendationModel;
+
+        public AnalyticsGrpcService(PredictionModel predictionModel, RecommendationModel recommendationModel)
+        {
+            _predictionModel = predictionModel;
+            _recommendationModel = recommendationModel;
+        }
+
+        public override Task<AnalyticsResponse> GetInsights(AnalyticsRequest request, ServerCallContext context)
+        {
+            var insights = _predictionModel.GetPrediction(request.Query);
+            return Task.FromResult(new AnalyticsResponse { Insights = insights });
+        }
     }
 }

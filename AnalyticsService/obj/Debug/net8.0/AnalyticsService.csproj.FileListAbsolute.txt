@@ -51,6 +51,7 @@ C:\Users\e.de.andrade.neto\KikeAI\src\AnalyticsService\obj\Debug\net8.0\Analytic
 C:\Users\e.de.andrade.neto\KikeAI\src\AnalyticsService\obj\Debug\net8.0\AnalyticsService.csproj.CoreCompileInputs.cache
 C:\Users\e.de.andrade.neto\KikeAI\src\AnalyticsService\obj\Debug\net8.0\AnalyticsService.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\e.de.andrade.neto\KikeAI\src\AnalyticsService\obj\Debug\net8.0\AnalyticsService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\e.de.andrade.neto\KikeAI\src\AnalyticsService\obj\Debug\net8.0\AnalyticsService.sourcelink.json
 C:\Users\e.de.andrade.neto\KikeAI\src\AnalyticsService\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\e.de.andrade.neto\KikeAI\src\AnalyticsService\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\e.de.andrade.neto\KikeAI\src\AnalyticsService\obj\Debug\net8.0\staticwebassets\msbuild.AnalyticsService.Microsoft.AspNetCore.StaticWebAssets.props
