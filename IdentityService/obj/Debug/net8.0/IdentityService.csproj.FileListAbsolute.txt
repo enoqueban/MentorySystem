@@ -137,3 +137,4 @@ C:\Users\e.de.andrade.neto\KikeAI\src\IdentityService\bin\Debug\net8.0\runtimes\
 C:\Users\e.de.andrade.neto\KikeAI\src\IdentityService\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\e.de.andrade.neto\KikeAI\src\IdentityService\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\e.de.andrade.neto\KikeAI\src\IdentityService\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\e.de.andrade.neto\KikeAI\src\IdentityService\obj\Debug\net8.0\IdentityService.sourcelink.json
